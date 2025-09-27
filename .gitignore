@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual envs
+.env
+.venv
+venv/
+ENV/
+env/
+venv.bak/
+
+# FastAPI / Uvicorn
+*.sqlite3
+
+# Environment variables
+.env.local
+.env.dev
+.env.staging
+.env.prod
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Jupyter / Notebooks
+.ipynb_checkpoints
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-data/
+*.pid
+*.sock
+
+# Node / Frontend (por si mezclas React dashboard en el mismo monorepo)
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
